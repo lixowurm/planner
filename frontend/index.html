@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="distanceCalculatorContainer" class="container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="distanceCalculator.js"></script>
+    <script src="../test.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new DistanceCalculator('distanceCalculatorContainer');
+        });
+    </script>
+</body>
+</html>
+
